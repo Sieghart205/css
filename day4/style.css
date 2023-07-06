@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #E56262;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.c3{
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 10px #00000060);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transition: .3s;
+    animation: c3 4s ease-in-out infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2{
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 10px #00000060);
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    animation: c2 4s ease-in-out infinite ;
+}
+
+.c1{
+    background-color: #fff;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    filter: drop-shadow(5px 5px 10px #00000060);
+    animation: c1 4s ease-in-out infinite ;
+}
+
+@keyframes c3{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    16.65%{
+        width: 0;
+        height: 0;
+    }
+    33.3%{
+        width: 0;
+        height: 0;
+    }
+    50%{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    66.6%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes c2{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    16.65%{
+        width: 0;
+        height: 0;  
+    }
+    33.3%{
+        width: 5vw;
+        height: 5vw;
+    }
+    50%{
+        width: 5vw;
+        height: 5vw;
+    }
+    66.6%{
+        width: 5vw;
+        height: 5vw;
+    }
+    83.25%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes c1{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    16.65%{
+        width: 8vw;
+        height: 8vw; 
+    }
+    33.3%{
+        width: 8vw;
+        height: 8vw;
+    }
+    66.6%{
+        width: 8vw;
+        height: 8vw;
+    }
+    83.25%{
+        width: 8vw;
+        height: 8vw;
+    }
+    100%{
+        width: 0vw;
+        height: 0vw;
+    }
+}
